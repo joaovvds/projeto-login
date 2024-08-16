@@ -1,0 +1,60 @@
+@charset "UF-8";
+
+/* Todas as demais Medias */
+/* Pesquisar: Typical Device Breakpoints
+    pequenas telas : 600px
+    celular: 600px até 768px
+    tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes Telas: acima de 1200px
+     */
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas))
+    }
+
+    section#login {
+        width: 90vw;
+    }
+    section#login > div#imagem {
+        float: left;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        width: 30%;
+        height: 100%;
+        margin-right: 20px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 20px;
+        width: 50%;
+        height: 100%;
+        margin-right: 20px;
+        
+    }
+}
+
+
+
+
+
