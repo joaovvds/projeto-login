@@ -1,2 +1,67 @@
 @charset "UTF-8";
 
+
+/* Todas as demais Medias */
+/* Pesquisar: Typical Device Breakpoints
+    pequenas telas : 600px
+    celular: 600px até 768px
+    tablet: 768px até 992px
+    Desktop: 992px até 1200px
+    Grandes Telas: acima de 1200px
+     */
+
+:root {
+    --verde: #49a09d;
+    --lilas: #5f2c82;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: var(--lilas);
+}
+
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+
+    background-color: white;
+    height: 500px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
+
+}
+
+div#imagem {
+    display: block;
+    background-image: url(../imagens/predio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+    height: 240px;
+    max-width: 600px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    /* overflow: hidden;  = tudo que estiver fora da borda fica escondido.
+    usei o border-top-left-radius pra fazer as bordas de cima de deu certo 
+    nao precisei usar o overflow e ele nao funcionou  */
+    
+}
+
+div#formulario {
+    display: block;
+    padding: 10px;
+    text-align: center; 
+}
