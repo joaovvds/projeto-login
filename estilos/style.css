@@ -45,6 +45,8 @@ section#login {
     
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
+    overflow: hidden;
+    /* overflow: hidden;  = tudo que estiver fora da borda fica escondido.  */
 }
 
 div#imagem {
@@ -53,20 +55,23 @@ div#imagem {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    background-attachment: fixed;
-
-    height: 240px;
-    max-width: 600px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-
-    /* overflow: hidden;  = tudo que estiver fora da borda fica escondido.
-    usei o border-top-left-radius pra fazer as bordas de cima de deu certo 
-    nao precisei usar o overflow e ele nao funcionou  */
     
+
+    height: 200px;
+
 }
 
-div#formulario {
+section#login > div#formulario {
     display: block;
     padding: 20px;
+}
+
+div#formulario > h1 {
+     text-align: center;
+     margin-bottom: 10px;
+      
+}
+
+div#formulario > p  {
+    font-size: 0.9em;
 }
