@@ -35,6 +35,18 @@
     div#formulario > p  {
         font-size: 1em;
     }
+    form > input[type=submit] {
+        width: 40%;
+        margin-top: 5px;
+    
+
+    }
+    form > a.botao {
+        float: left;
+        width: 40%;
+       
+       
+    }
        
 }
 
@@ -49,10 +61,10 @@
     }
 
     section#login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
-        margin-right: 20px;
+       
     }
 
     section#login > div#formulario {
@@ -65,6 +77,19 @@
     div#formulario  > p {
         font-size: 1.2em;
 
+    }
+    form > input[type=submit] {
+        text-align: center;
+        width: 40%;
+        margin-top: 5px;
+    
+
+    }
+    form > a.botao {
+        float: left;
+        width: 40%;
+       
+       
     }
 }
 
