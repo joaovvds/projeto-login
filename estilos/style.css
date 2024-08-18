@@ -38,7 +38,7 @@ section#login {
     transform: translate(-50%, -50%); 
 
     background-color: white;
-    height: 505px;
+    height: 500px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
@@ -64,11 +64,12 @@ div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
 
 div#formulario > h1 {
      text-align: center;
+    
      margin-bottom: 10px;
       
 }
