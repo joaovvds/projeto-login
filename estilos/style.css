@@ -38,7 +38,7 @@ section#login {
     transform: translate(-50%, -50%); 
 
     background-color: white;
-    height: 500px;
+    height: 490px;
     width: 250px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
@@ -76,6 +76,8 @@ div#formulario > h1 {
 
 div#formulario > p  {
     font-size: 0.9em;
+    text-indent: 0.5em;
+
 }
 
 form > input[type=submit] {
