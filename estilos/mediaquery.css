@@ -31,10 +31,18 @@
 
     div#formulario {
         width: 100%;
+      
     }
     div#formulario > p  {
         font-size: 1em;
     }
+
+    form > div.campo {
+        margin-left: 32%;
+        width: 200px;
+        
+}
+
     form > input[type=submit] {
         width: 40%;
         margin-top: 5px;
@@ -78,6 +86,13 @@
         font-size: 1.2em;
 
     }
+
+    form > div.campo {
+        width: 200px;
+        
+    }
+
+
     form > input[type=submit] {
         text-align: center;
         width: 40%;
